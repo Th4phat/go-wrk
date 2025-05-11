@@ -2,7 +2,7 @@
 
 Go-WRK is a flexible HTTP load testing tool written in Go, inspired by `wrk` and `wrk2`, designed for ease of use and extensibility. It features a terminal user interface (TUI) for interactive configuration and live monitoring of benchmarks.
 
-![Screenshot of Go-WRK TUI (./res/screenshot3.png)]
+![screen shot](https://github.com/Th4phat/go-wrk/blob/main/res/screenshot3.png)
 
 ## Features
 
