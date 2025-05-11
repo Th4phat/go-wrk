@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"go-wrk/config"
-	"go-wrk/tui"
+	"github.com/Th4phat/go-wrk/config"
+	"github.com/Th4phat/go-wrk/tui"
 
 	tea "github.com/charmbracelet/bubbletea"
 )

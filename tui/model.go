@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-wrk/benchmark"
-	"go-wrk/config"
-	"go-wrk/metrics"
+	"github.com/Th4phat/go-wrk/benchmark"
+	"github.com/Th4phat/go-wrk/config"
+	"github.com/Th4phat/go-wrk/metrics"
 
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/textinput"

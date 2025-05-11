@@ -1,4 +1,4 @@
-module go-wrk
+module github.com/Th4phat/go-wrk
 
 go 1.23.2
 

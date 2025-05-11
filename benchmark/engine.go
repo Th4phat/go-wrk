@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"go-wrk/config"
-	"go-wrk/metrics"
+	"github.com/Th4phat/go-wrk/config"
+	"github.com/Th4phat/go-wrk/metrics"
 
 	"github.com/valyala/fasthttp"
 )
@@ -66,7 +66,7 @@ func (e *Engine) Start(
 
 	hostClient := &fasthttp.HostClient{
 		Addr:     parsedURL.Host,
-		Name:     "go-wrk-fasthttp-client",
+		Name:     "github.com/Th4phat/go-wrk-fasthttp-client",
 		MaxConns: cfg.Connections,
 
 		ReadTimeout:                   30 * time.Second,

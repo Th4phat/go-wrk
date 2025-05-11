@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"go-wrk/metrics"
+	"github.com/Th4phat/go-wrk/metrics"
 
 	"github.com/charmbracelet/lipgloss"
 )

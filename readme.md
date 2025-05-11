@@ -35,7 +35,12 @@ Go-WRK is a flexible HTTP load testing tool written in Go, inspired by `wrk` and
 ### Prerequisites
 
 *   **Go:** Version 1.18 or higher.
+### Using `go install` (Recommended for users)
 
+If you have Go installed and your `GOPATH/bin` (or `GOBIN`) is in your system's `PATH`:
+```bash
+go install https://github.com/Th4phat/go-wrk
+```
 ### From Source
 
 1.  **Clone the repository:**
@@ -57,12 +62,7 @@ Go-WRK is a flexible HTTP load testing tool written in Go, inspired by `wrk` and
     ```
     Or, move the executable to a directory in your system's `PATH` (e.g., `/usr/local/bin` or `~/bin` ) for easier access.
 
-### Using `go install` (Recommended for users)
 
-If you have Go installed and your `GOPATH/bin` (or `GOBIN`) is in your system's `PATH`:
-```bash
-go install https://github.com/Th4phat/go-wrk
-```
 This will download, build, and install the `go-wrk` executable into your Go binary directory.
 
 ## Usage

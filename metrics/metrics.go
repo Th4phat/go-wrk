@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	config "go-wrk/config"
+	config "github.com/Th4phat/go-wrk/config"
 )
 
 // ProgressUpdate holds metrics for a point-in-time update during the benchmark.

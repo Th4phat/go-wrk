@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"go-wrk/config"
-	"go-wrk/metrics"
+	"github.com/Th4phat/go-wrk/config"
+	"github.com/Th4phat/go-wrk/metrics"
 
 	"github.com/valyala/fasthttp" // Import fasthttp
 )
